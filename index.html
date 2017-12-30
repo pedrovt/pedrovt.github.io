@@ -1,14 +1,22 @@
+<!-- © Pedro Teixeira 2017
+     Based on New Age Theme
+     Available @ https://startbootstrap.com/template-overviews/new-age/
+     Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE)
+     Header photo from https://www.pinterest.pt/pin/188166090661373900/      -->
+
 <!DOCTYPE html>
 <html lang="en">
-
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
   <head>
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="about-me" content="">
+    <meta name="author" content="Pedro Teixeira">
 
-    <title>New Age - Start Bootstrap Theme</title>
+    <title>Pedro Teixeira</title>
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/ico" />
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -24,16 +32,17 @@
     <link rel="stylesheet" href="device-mockups/device-mockups.min.css">
 
     <!-- Custom styles for this template -->
-    <link href="css/new-age.min.css" rel="stylesheet">
+    <link href="css/new-age.css" rel="stylesheet">
 
   </head>
 
+  <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
   <body id="page-top">
 
-    <!-- Navigation -->
+    <!-- Navigation %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">Pedro Teixeira</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
           <i class="fa fa-bars"></i>
@@ -41,10 +50,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#download">Download</a>
+              <a class="nav-link js-scroll-trigger" href="#about-me">About Me</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#features">Features</a>
+              <a class="nav-link js-scroll-trigger" href="#my-work">My Work</a>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
@@ -54,103 +63,183 @@
       </div>
     </nav>
 
-    <header class="masthead">
+    <!-- Header %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <header class="my-header">
       <div class="container h-100">
         <div class="row h-100">
           <div class="col-lg-7 my-auto">
             <div class="header-content mx-auto">
-              <h1 class="mb-5">New Age is an app landing page that will help you beautifully showcase your new mobile app, or anything else!</h1>
-              <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start Now for Free!</a>
+              <h1 class="mb-5">Pedro Teixeira<br>Welcome to My Page</h1>
+              <a href="#my-work" class="btn btn-outline btn-xl js-scroll-trigger">See My Work</a>
             </div>
           </div>
-          <div class="col-lg-5 my-auto">
-            <div class="device-container">
+          <!--  <div class="col-lg-5 my-auto">
+             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
+                    You can hook the "home button" to some JavaScript events or just remove it
                   </div>
                 </div>
               </div>
             </div>
-          </div>
+          </div>  -->
         </div>
       </div>
     </header>
 
-    <section class="download bg-primary text-center" id="download">
-      <div class="container">
+    <!-- About Me %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <section class="contact bg-primary text-center" id="about-me">
+      <div class="header-content">
+        <div class="section-heading text-center">
+          <h2>About Me</h2>
+          <!--<p class="text-muted">Check out my work</p>
+          <hr> -->
+        </div>
+
         <div class="row">
-          <div class="col-md-8 mx-auto">
-            <h2 class="section-heading">Discover what all the buzz is about!</h2>
-            <p>Our app is available on any mobile device! Download now to get started!</p>
-            <div class="badges">
-              <a class="badge-link" href="#"><img src="img/google-play-badge.svg" alt=""></a>
-              <a class="badge-link" href="#"><img src="img/app-store-badge.svg" alt=""></a>
-            </div>
+          <!-- Photo %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+          <div class="col-md-4 mx-auto my-auto">
+            <img class="circle-frame img-fluid" src="img/me.jpg" style = "max-width: 60%; max-height: 60%" alt="Me"</img>
           </div>
+
+          <!-- About Me Info %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+          <div class="col-md-4 mx-auto my-auto" style="text-align:center">
+            <p>
+              <i class="icon-location-pin text-secondary"></i>
+              Student at University of Aveiro
+            </p>
+            <br>
+
+            <p>
+              <i class="icon-calendar text-secondary"></i>
+              Since September 2016 and until 2021
+
+            </p>
+            <br>
+
+            <p>
+              <i class="icon-graduation text-secondary"></i>
+              Studying Computer and Telematics Engineering
+
+            </p>
+            <br>
+
+            <p>
+              <i class="icon-like text-secondary"></i>
+              Java, MATLAB
+
+            </p>
+            <!-- <div class="badges">
+            <a class="badge-link" href="http://www.ua.pt"><img src="img/ua_logo.png" alt="UA Logo"></a>
+            </div> -->
+          </div>
+
         </div>
       </div>
     </section>
 
-    <section class="features" id="features">
+    <!-- My work %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
+    <section class="features" id="my-work">
       <div class="container">
         <div class="section-heading text-center">
-          <h2>Unlimited Features, Unlimited Fun</h2>
-          <p class="text-muted">Check out what you can do with this app theme!</p>
+          <h2>My Work</h2>
+          <p class="text-muted">Check out my work</p>
           <hr>
         </div>
         <div class="row">
-          <div class="col-lg-4 my-auto">
+          <!-- <div class="col-lg-4 my-auto">
             <div class="device-container">
               <div class="device-mockup iphone6_plus portrait white">
                 <div class="device">
                   <div class="screen">
-                    <!-- Demo image for screen mockup, you can put an image here, some HTML, an animation, video, or anything else! -->
                     <img src="img/demo-screen-1.jpg" class="img-fluid" alt="">
                   </div>
                   <div class="button">
-                    <!-- You can hook the "home button" to some JavaScript events or just remove it -->
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="col-lg-8 my-auto">
+          </div> -->
+          <div class="col-lg-12 my-auto">
             <div class="container-fluid">
               <div class="row">
+                <!-- Programação -->
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-screen-smartphone text-primary"></i>
-                    <h3>Device Mockups</h3>
-                    <p class="text-muted">Ready to use HTML/CSS device mockups, no Photoshop required!</p>
+                    <i class="icon-loop text-primary"></i>
+                    <h3>Programming (P1, P2, P3)</h3>
+                    <p class="text-muted">
+                      <a class="text-muted" href="https://github.com/pedrovt/programacao/tree/master/P1">P1</a><br>
+                      <a class="text-muted" href="https://github.com/pedrovt/programacao/tree/master/TrabalhoPratico_P1">P1 Project : Pacman Game</a><br>
+                      <a class="text-muted" href="https://github.com/pedrovt/programacao/tree/master/P2">P2</a><br>
+                      <a class="text-muted" href="https://github.com/pedrovt/programacao/tree/master/P3">P3</a>
+                    </p>
                   </div>
                 </div>
+                <!-- Games -->
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-camera text-primary"></i>
-                    <h3>Flexible Use</h3>
-                    <p class="text-muted">Put an image, video, animation, or anything else in the screen!</p>
+                    <i class="icon-game-controller text-primary"></i>
+                    <h3>Extra Work</h3>
+                    <p class="text-muted">
+
+                        <a class="text-muted" href="https://github.com/pedrovt/tic-tac-toe">Tic Tac Toe</a>
+                    </p>
                   </div>
                 </div>
               </div>
               <div class="row">
+                <!-- Arquitectura de Computadores -->
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-present text-primary"></i>
-                    <h3>Free to Use</h3>
-                    <p class="text-muted">As always, this theme is free to download and use for any purpose!</p>
+                    <i class="icon-screen-desktop text-primary"></i>
+                    <h3>Computer Architecture (AC)</h3>
+                    <p class="text-muted">
+                      <a class="text-muted" href="https://github.com/pedrovt/ac">AC1 Guides</a>
+                      <!--<a class="text-muted" href="https://github.com/pedrovt/ac/tree/master/AC1">AC1 Guides</a><br>
+                      <a class="text-muted" href="https://github.com/pedrovt/ac/tree/master/AC2">AC2 Guides</a> -->
+                    </p>
                   </div>
                 </div>
+                <!-- Laboratórios de Sistemas Digitais -->
                 <div class="col-lg-6">
                   <div class="feature-item">
-                    <i class="icon-lock-open text-primary"></i>
-                    <h3>Open Source</h3>
-                    <p class="text-muted">Since this theme is MIT licensed, you can use it commercially!</p>
+                    <i class="icon-screen-desktop text-primary"></i>
+                    <h3>Digital Systems Laboratory (LSD)</h3>
+                    <p class="text-muted">
+                        <a class="text-muted" href="https://github.com/pedrovt/lsd">LSD Guides</a><br>
+                        <a class="text-muted" href="https://github.com/pedrovt/lsd/tree/master/Game2048">LSD Project : 2048 Game</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <!-- Métodos Probabilísticos para Engenharia Informática -->
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-graph text-primary"></i>
+                    <h3>Probability Methods for Informatics Engineering (MPEI)</h3>
+                    <p class="text-muted">
+                      <a class="text-muted" href="https://github.com/pedrovt/mpei">MPEI Guides</a><br>
+                      <a class="text-muted" >MPEI Project [Link soon]</a>
+                    </p>
+                  </div>
+                </div>
+                <!-- Laboratórios de Informática -->
+                <div class="col-lg-6">
+                  <div class="feature-item">
+                    <i class="icon-screen-tablet text-primary"></i>
+                    <h3>Computer Science Laboratories (LABI)</h3>
+                    <p class="text-muted">
+                      <a class="text-muted" href="https://github.com/pedrovt/labi">LABI Guides</a><br>
+                      <a class="text-muted" href="https://github.com/pedrovt/labi2016-networks3/tree/master/Proj1">LABI Project 1: Website</a><br>
+                      <a class="text-muted" >LABI Small Project 2 [Link soon]</a><br>
+                      <a class="text-muted" >LABI Project 2 [Link soon]</a>
+                    </p>
                   </div>
                 </div>
               </div>
@@ -160,7 +249,7 @@
       </div>
     </section>
 
-    <section class="cta">
+    <!-- <section class="cta">
       <div class="cta-content">
         <div class="container">
           <h2>Stop waiting.<br>Start building.</h2>
@@ -168,37 +257,59 @@
         </div>
       </div>
       <div class="overlay"></div>
-    </section>
+    </section> -->
 
+    <!-- Contacts %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <section class="contact bg-primary" id="contact">
       <div class="container">
-        <h2>We
-          <i class="fa fa-heart"></i>
-          new friends!</h2>
+        <h2>See
+          <i class="fa fa-plus"></i><br>
+          Contacts<br>
+        </h2>
         <ul class="list-inline list-social">
-          <li class="list-inline-item social-twitter">
-            <a href="#">
-              <i class="fa fa-twitter"></i>
+          <li class="list-inline-item social-github">
+            <a href="https://github.com/pedrovt">
+              <i class="fa fa-github"></i>
             </a>
           </li>
-          <li class="list-inline-item social-facebook">
-            <a href="#">
-              <i class="fa fa-facebook"></i>
+          <li class="list-inline-item social-linkedin">
+            <a href="http://www.linkedin.com/in/pedro-vteixeira/">
+              <i class="fa fa-linkedin"></i>
             </a>
           </li>
-          <li class="list-inline-item social-google-plus">
-            <a href="#">
-              <i class="fa fa-google-plus"></i>
+          <li class="list-inline-item social-cv">
+            <a href="mailto:pedro.teix@ua.pt">
+              <i class="fa icon-envelope"></i>
             </a>
           </li>
         </ul>
       </div>
     </section>
 
+    <!-- Footer %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <footer>
       <div class="container">
-        <p>&copy; 2017 Start Bootstrap. All Rights Reserved.</p>
-        <ul class="list-inline">
+        <p>
+          For any issues with the website, please <a href="mailto:pedro.teix@ua.pt">send an email</a>.<br>
+        </p>
+
+        <p>
+          <br>
+          &copy; 2017-
+          <!-- Get Current Year -->
+          <script language="JavaScript" type="text/javascript">
+            now  = new Date
+            year = now.getYear()
+            if (year < 1900)
+              year = year + 1900
+            document.write(year)
+          </script>
+
+          Pedro Teixeira. All Rights Reserved.<br>
+          <a href="https://startbootstrap.com/template-overviews/new-age/">New Age</a> theme licensed under <a href="https://github.com/BlackrockDigital/startbootstrap-new-age/blob/master/LICENSE">MIT.</a></p>
+
+
+        <!-- <ul class="list-inline">
           <li class="list-inline-item">
             <a href="#">Privacy</a>
           </li>
@@ -208,10 +319,12 @@
           <li class="list-inline-item">
             <a href="#">FAQ</a>
           </li>
-        </ul>
+        </ul> -->
+
       </div>
     </footer>
 
+    <!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -223,5 +336,5 @@
     <script src="js/new-age.min.js"></script>
 
   </body>
-
+<!-- %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% -->
 </html>
